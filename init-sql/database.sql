@@ -15,7 +15,7 @@ VALUES
     (3, "Folate", "Folic Acid", 50),
     (4, "Naproxen", "Aleve", 150);
 
-ALTER USER 'root'@'%' IDENTIFIED WITH mysql_native_password BY 'it635';
+ALTER USER 'root'@'%' IDENTIFIED WITH mysql_native_password BY 'root';
 CREATE USER 'ami'@'%' IDENTIFIED BY 'it635';
 GRANT SELECT ON meds.med_info TO 'ami'@'%';
 
