@@ -19,4 +19,4 @@ ALTER USER 'root'@'%' IDENTIFIED WITH mysql_native_password BY 'it635';
 CREATE USER 'steve'@'%' IDENTIFIED BY 'it635';
 GRANT SELECT ON meds.med_info TO 'steve'@'%';
 GRANT INSERT ON meds.med_info TO 'steve'@'%';
-FLUSH PRIVILEGES;
+
