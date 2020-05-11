@@ -5,8 +5,8 @@ ini_set('display_errors', 1);
 error_reporting(-1);
 
 $servername = "db";
-$username = "root";
-$password = "root";
+$username = "ami";
+$password = "it635";
 $dbname = "meds";
 
 // Create connection
