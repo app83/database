@@ -5,7 +5,7 @@ ini_set('display_errors', 1);
 error_reporting(-1);
 
 $servername = "db";
-$username = "ami";
+$username = "steve";
 $password = "it635";
 $dbname = "meds";
 
