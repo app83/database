@@ -3,7 +3,7 @@ services:
     db:
         image: mysql
         volumes:
-            - ./init-sql
+            - ./init-sql:/var/lib/mysql
         command: --default-authentication-plugin=mysql_native_password 
         environment:
             MYSQL_ROOT_PASSWORD: root
