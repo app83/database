@@ -15,9 +15,7 @@ VALUES
     (3, "Folate", "Folic Acid", 50),
     (4, "Naproxen", "Aleve", 150);
 
-/*ALTER USER 'root'@'%' IDENTIFIED WITH mysql_native_password BY 'root';
-CREATE USER 'steve'@'%' IDENTIFIED BY 'it635';
-GRANT SELECT ON sis.student_contacts TO 'steve'@'%';
-GRANT INSERT ON sis.student_attendance TO 'steve'@'%';
-FLUSH PRIVILEGES;
-*/
+ALTER USER 'root'@'%' IDENTIFIED WITH mysql_native_password BY 'it635';
+CREATE USER 'ami'@'%' IDENTIFIED BY 'it635';
+GRANT SELECT ON meds.med_info TO 'ami'@'%';
+
